@@ -1,0 +1,8 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/news-grid": "pages/news-grid.js",
+  "/page-contact": "pages/page-contact.js",
+  "/page-service-details": "pages/page-service-details.js"
+}

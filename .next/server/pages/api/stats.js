@@ -1,0 +1,86 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/stats";
+exports.ids = ["pages/api/stats"];
+exports.modules = {
+
+/***/ "mongodb":
+/*!**************************!*\
+  !*** external "mongodb" ***!
+  \**************************/
+/***/ ((module) => {
+
+module.exports = require("mongodb");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages-api.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages-api.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/pages-api.runtime.dev.js");
+
+/***/ }),
+
+/***/ "(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fstats&preferredRegion=&absolutePagePath=.%2Fpages%5Capi%5Cstats.js&middlewareConfigBase64=e30%3D!":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fstats&preferredRegion=&absolutePagePath=.%2Fpages%5Capi%5Cstats.js&middlewareConfigBase64=e30%3D! ***!
+  \****************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   routeModule: () => (/* binding */ routeModule)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/pages-api/module.compiled */ \"(api)/./node_modules/next/dist/server/future/route-modules/pages-api/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(api)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/build/templates/helpers */ \"(api)/./node_modules/next/dist/build/templates/helpers.js\");\n/* harmony import */ var _pages_api_stats_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages\\api\\stats.js */ \"(api)/./pages/api/stats.js\");\n\n\n\n// Import the userland code.\n\n// Re-export the handler (should be the default export).\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_api_stats_js__WEBPACK_IMPORTED_MODULE_3__, \"default\"));\n// Re-export config.\nconst config = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_api_stats_js__WEBPACK_IMPORTED_MODULE_3__, \"config\");\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__.PagesAPIRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.PAGES_API,\n        page: \"/api/stats\",\n        pathname: \"/api/stats\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\"\n    },\n    userland: _pages_api_stats_js__WEBPACK_IMPORTED_MODULE_3__\n});\n\n//# sourceMappingURL=pages-api.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci9pbmRleC5qcz9raW5kPVBBR0VTX0FQSSZwYWdlPSUyRmFwaSUyRnN0YXRzJnByZWZlcnJlZFJlZ2lvbj0mYWJzb2x1dGVQYWdlUGF0aD0uJTJGcGFnZXMlNUNhcGklNUNzdGF0cy5qcyZtaWRkbGV3YXJlQ29uZmlnQmFzZTY0PWUzMCUzRCEiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBc0c7QUFDdkM7QUFDTDtBQUMxRDtBQUNtRDtBQUNuRDtBQUNBLGlFQUFlLHdFQUFLLENBQUMsZ0RBQVEsWUFBWSxFQUFDO0FBQzFDO0FBQ08sZUFBZSx3RUFBSyxDQUFDLGdEQUFRO0FBQ3BDO0FBQ08sd0JBQXdCLGdIQUFtQjtBQUNsRDtBQUNBLGNBQWMseUVBQVM7QUFDdkI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTCxZQUFZO0FBQ1osQ0FBQzs7QUFFRCIsInNvdXJjZXMiOlsid2VicGFjazovL3RlY2hvLW5leHQvPzE1OTgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUGFnZXNBUElSb3V0ZU1vZHVsZSB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1tb2R1bGVzL3BhZ2VzLWFwaS9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1raW5kXCI7XG5pbXBvcnQgeyBob2lzdCB9IGZyb20gXCJuZXh0L2Rpc3QvYnVpbGQvdGVtcGxhdGVzL2hlbHBlcnNcIjtcbi8vIEltcG9ydCB0aGUgdXNlcmxhbmQgY29kZS5cbmltcG9ydCAqIGFzIHVzZXJsYW5kIGZyb20gXCIuL3BhZ2VzXFxcXGFwaVxcXFxzdGF0cy5qc1wiO1xuLy8gUmUtZXhwb3J0IHRoZSBoYW5kbGVyIChzaG91bGQgYmUgdGhlIGRlZmF1bHQgZXhwb3J0KS5cbmV4cG9ydCBkZWZhdWx0IGhvaXN0KHVzZXJsYW5kLCBcImRlZmF1bHRcIik7XG4vLyBSZS1leHBvcnQgY29uZmlnLlxuZXhwb3J0IGNvbnN0IGNvbmZpZyA9IGhvaXN0KHVzZXJsYW5kLCBcImNvbmZpZ1wiKTtcbi8vIENyZWF0ZSBhbmQgZXhwb3J0IHRoZSByb3V0ZSBtb2R1bGUgdGhhdCB3aWxsIGJlIGNvbnN1bWVkLlxuZXhwb3J0IGNvbnN0IHJvdXRlTW9kdWxlID0gbmV3IFBhZ2VzQVBJUm91dGVNb2R1bGUoe1xuICAgIGRlZmluaXRpb246IHtcbiAgICAgICAga2luZDogUm91dGVLaW5kLlBBR0VTX0FQSSxcbiAgICAgICAgcGFnZTogXCIvYXBpL3N0YXRzXCIsXG4gICAgICAgIHBhdGhuYW1lOiBcIi9hcGkvc3RhdHNcIixcbiAgICAgICAgLy8gVGhlIGZvbGxvd2luZyBhcmVuJ3QgdXNlZCBpbiBwcm9kdWN0aW9uLlxuICAgICAgICBidW5kbGVQYXRoOiBcIlwiLFxuICAgICAgICBmaWxlbmFtZTogXCJcIlxuICAgIH0sXG4gICAgdXNlcmxhbmRcbn0pO1xuXG4vLyMgc291cmNlTWFwcGluZ1VSTD1wYWdlcy1hcGkuanMubWFwIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fstats&preferredRegion=&absolutePagePath=.%2Fpages%5Capi%5Cstats.js&middlewareConfigBase64=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(api)/./lib/db.js":
+/*!*******************!*\
+  !*** ./lib/db.js ***!
+  \*******************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var mongodb__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mongodb */ \"mongodb\");\n/* harmony import */ var mongodb__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mongodb__WEBPACK_IMPORTED_MODULE_0__);\n// lib/db.js\n\nconst uri = \"mongodb+srv://pragatitripathi:wUKH2EiYezO5hopb@genicminds.jbdgr.mongodb.net/?retryWrites=true&w=majority&appName=GenicMinds\"; // Replace with your actual connection string\nlet client;\nlet clientPromise;\n// Check if running in development or production\nif (true) {\n    // Create a new MongoClient for development\n    if (!global._mongoClientPromise) {\n        client = new mongodb__WEBPACK_IMPORTED_MODULE_0__.MongoClient(uri);\n        global._mongoClientPromise = client.connect();\n    }\n    clientPromise = global._mongoClientPromise;\n} else {}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (clientPromise);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9saWIvZGIuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsWUFBWTtBQUMwQjtBQUV0QyxNQUFNQyxNQUFNLCtIQUErSCw2Q0FBNkM7QUFFeEwsSUFBSUM7QUFDSixJQUFJQztBQUVKLGdEQUFnRDtBQUNoRCxJQUFJQyxJQUF5QixFQUFlO0lBQ3hDLDJDQUEyQztJQUMzQyxJQUFJLENBQUNDLE9BQU9DLG1CQUFtQixFQUFFO1FBQzdCSixTQUFTLElBQUlGLGdEQUFXQSxDQUFDQztRQUN6QkksT0FBT0MsbUJBQW1CLEdBQUdKLE9BQU9LLE9BQU87SUFDL0M7SUFDQUosZ0JBQWdCRSxPQUFPQyxtQkFBbUI7QUFDOUMsT0FBTyxFQUlOO0FBRUQsaUVBQWVILGFBQWFBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90ZWNoby1uZXh0Ly4vbGliL2RiLmpzPzNkYzkiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gbGliL2RiLmpzXHJcbmltcG9ydCB7IE1vbmdvQ2xpZW50IH0gZnJvbSAnbW9uZ29kYic7XHJcblxyXG5jb25zdCB1cmkgPSAnbW9uZ29kYitzcnY6Ly9wcmFnYXRpdHJpcGF0aGk6d1VLSDJFaVllek81aG9wYkBnZW5pY21pbmRzLmpiZGdyLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1HZW5pY01pbmRzJzsgLy8gUmVwbGFjZSB3aXRoIHlvdXIgYWN0dWFsIGNvbm5lY3Rpb24gc3RyaW5nXHJcblxyXG5sZXQgY2xpZW50O1xyXG5sZXQgY2xpZW50UHJvbWlzZTtcclxuXHJcbi8vIENoZWNrIGlmIHJ1bm5pbmcgaW4gZGV2ZWxvcG1lbnQgb3IgcHJvZHVjdGlvblxyXG5pZiAocHJvY2Vzcy5lbnYuTk9ERV9FTlYgPT09ICdkZXZlbG9wbWVudCcpIHtcclxuICAgIC8vIENyZWF0ZSBhIG5ldyBNb25nb0NsaWVudCBmb3IgZGV2ZWxvcG1lbnRcclxuICAgIGlmICghZ2xvYmFsLl9tb25nb0NsaWVudFByb21pc2UpIHtcclxuICAgICAgICBjbGllbnQgPSBuZXcgTW9uZ29DbGllbnQodXJpKTtcclxuICAgICAgICBnbG9iYWwuX21vbmdvQ2xpZW50UHJvbWlzZSA9IGNsaWVudC5jb25uZWN0KCk7XHJcbiAgICB9XHJcbiAgICBjbGllbnRQcm9taXNlID0gZ2xvYmFsLl9tb25nb0NsaWVudFByb21pc2U7XHJcbn0gZWxzZSB7XHJcbiAgICAvLyBDcmVhdGUgYSBuZXcgTW9uZ29DbGllbnQgZm9yIHByb2R1Y3Rpb25cclxuICAgIGNsaWVudCA9IG5ldyBNb25nb0NsaWVudCh1cmkpO1xyXG4gICAgY2xpZW50UHJvbWlzZSA9IGNsaWVudC5jb25uZWN0KCk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGNsaWVudFByb21pc2U7XHJcbiJdLCJuYW1lcyI6WyJNb25nb0NsaWVudCIsInVyaSIsImNsaWVudCIsImNsaWVudFByb21pc2UiLCJwcm9jZXNzIiwiZ2xvYmFsIiwiX21vbmdvQ2xpZW50UHJvbWlzZSIsImNvbm5lY3QiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./lib/db.js\n");
+
+/***/ }),
+
+/***/ "(api)/./lib/stats.js":
+/*!**********************!*\
+  !*** ./lib/stats.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   fetchStats: () => (/* binding */ fetchStats)\n/* harmony export */ });\n/* harmony import */ var mongodb__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mongodb */ \"mongodb\");\n/* harmony import */ var mongodb__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mongodb__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _db__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./db */ \"(api)/./lib/db.js\");\n // Import ObjectId\n\nconst fetchStats = async ()=>{\n    try {\n        const client = await _db__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n        const db = client.db(\"GenicMindsDB\"); // Use your database name\n        // Replace with the correct ObjectId of the document you want to fetch\n        const idToFetch = new mongodb__WEBPACK_IMPORTED_MODULE_0__.ObjectId(\"6704d3e7a6b781c4608ee6d6\");\n        // Fetch the document by its ObjectId\n        const stats = await db.collection(\"stats\").findOne({\n            _id: idToFetch\n        });\n        return stats;\n    } catch (error) {\n        console.error(\"Failed to fetch stats:\", error);\n        throw new Error(\"Failed to fetch stats\");\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9saWIvc3RhdHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFtQyxDQUFDLGtCQUFrQjtBQUNyQjtBQUUxQixNQUFNRSxhQUFhO0lBQ3RCLElBQUk7UUFDQSxNQUFNQyxTQUFTLE1BQU1GLDJDQUFhQTtRQUNsQyxNQUFNRyxLQUFLRCxPQUFPQyxFQUFFLENBQUMsaUJBQWlCLHlCQUF5QjtRQUUvRCxzRUFBc0U7UUFDdEUsTUFBTUMsWUFBWSxJQUFJTCw2Q0FBUUEsQ0FBQztRQUUvQixxQ0FBcUM7UUFDckMsTUFBTU0sUUFBUSxNQUFNRixHQUFHRyxVQUFVLENBQUMsU0FBU0MsT0FBTyxDQUFDO1lBQUVDLEtBQUtKO1FBQVU7UUFFcEUsT0FBT0M7SUFDWCxFQUFFLE9BQU9JLE9BQU87UUFDWkMsUUFBUUQsS0FBSyxDQUFDLDBCQUEwQkE7UUFDeEMsTUFBTSxJQUFJRSxNQUFNO0lBQ3BCO0FBQ0osRUFBRSIsInNvdXJjZXMiOlsid2VicGFjazovL3RlY2hvLW5leHQvLi9saWIvc3RhdHMuanM/OGRlZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBPYmplY3RJZCB9IGZyb20gJ21vbmdvZGInOyAvLyBJbXBvcnQgT2JqZWN0SWRcclxuaW1wb3J0IGNsaWVudFByb21pc2UgZnJvbSAnLi9kYic7XHJcblxyXG5leHBvcnQgY29uc3QgZmV0Y2hTdGF0cyA9IGFzeW5jICgpID0+IHtcclxuICAgIHRyeSB7XHJcbiAgICAgICAgY29uc3QgY2xpZW50ID0gYXdhaXQgY2xpZW50UHJvbWlzZTtcclxuICAgICAgICBjb25zdCBkYiA9IGNsaWVudC5kYignR2VuaWNNaW5kc0RCJyk7IC8vIFVzZSB5b3VyIGRhdGFiYXNlIG5hbWVcclxuICAgICAgICBcclxuICAgICAgICAvLyBSZXBsYWNlIHdpdGggdGhlIGNvcnJlY3QgT2JqZWN0SWQgb2YgdGhlIGRvY3VtZW50IHlvdSB3YW50IHRvIGZldGNoXHJcbiAgICAgICAgY29uc3QgaWRUb0ZldGNoID0gbmV3IE9iamVjdElkKFwiNjcwNGQzZTdhNmI3ODFjNDYwOGVlNmQ2XCIpO1xyXG4gICAgICAgIFxyXG4gICAgICAgIC8vIEZldGNoIHRoZSBkb2N1bWVudCBieSBpdHMgT2JqZWN0SWRcclxuICAgICAgICBjb25zdCBzdGF0cyA9IGF3YWl0IGRiLmNvbGxlY3Rpb24oJ3N0YXRzJykuZmluZE9uZSh7IF9pZDogaWRUb0ZldGNoIH0pO1xyXG4gICAgICAgIFxyXG4gICAgICAgIHJldHVybiBzdGF0cztcclxuICAgIH0gY2F0Y2ggKGVycm9yKSB7XHJcbiAgICAgICAgY29uc29sZS5lcnJvcignRmFpbGVkIHRvIGZldGNoIHN0YXRzOicsIGVycm9yKTtcclxuICAgICAgICB0aHJvdyBuZXcgRXJyb3IoJ0ZhaWxlZCB0byBmZXRjaCBzdGF0cycpO1xyXG4gICAgfVxyXG59O1xyXG4iXSwibmFtZXMiOlsiT2JqZWN0SWQiLCJjbGllbnRQcm9taXNlIiwiZmV0Y2hTdGF0cyIsImNsaWVudCIsImRiIiwiaWRUb0ZldGNoIiwic3RhdHMiLCJjb2xsZWN0aW9uIiwiZmluZE9uZSIsIl9pZCIsImVycm9yIiwiY29uc29sZSIsIkVycm9yIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./lib/stats.js\n");
+
+/***/ }),
+
+/***/ "(api)/./pages/api/stats.js":
+/*!****************************!*\
+  !*** ./pages/api/stats.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _lib_stats__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../lib/stats */ \"(api)/./lib/stats.js\");\n\nasync function handler(req, res) {\n    try {\n        const stats = await (0,_lib_stats__WEBPACK_IMPORTED_MODULE_0__.fetchStats)();\n        console.log(\"Stats fetched from DB:\", stats); // Log the stats here\n        res.status(200).json(stats);\n    } catch (error) {\n        console.error(\"Failed to fetch stats:\", error);\n        res.status(500).json({\n            message: \"Internal Server Error\"\n        });\n    }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvc3RhdHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBNkM7QUFFOUIsZUFBZUMsUUFBUUMsR0FBRyxFQUFFQyxHQUFHO0lBQzFDLElBQUk7UUFDQSxNQUFNQyxRQUFRLE1BQU1KLHNEQUFVQTtRQUM5QkssUUFBUUMsR0FBRyxDQUFDLDBCQUEwQkYsUUFBUSxxQkFBcUI7UUFDbkVELElBQUlJLE1BQU0sQ0FBQyxLQUFLQyxJQUFJLENBQUNKO0lBQ3pCLEVBQUUsT0FBT0ssT0FBTztRQUNaSixRQUFRSSxLQUFLLENBQUMsMEJBQTBCQTtRQUN4Q04sSUFBSUksTUFBTSxDQUFDLEtBQUtDLElBQUksQ0FBQztZQUFFRSxTQUFTO1FBQXdCO0lBQzVEO0FBQ0oiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90ZWNoby1uZXh0Ly4vcGFnZXMvYXBpL3N0YXRzLmpzPzg0ZmQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgZmV0Y2hTdGF0cyB9IGZyb20gJy4uLy4uL2xpYi9zdGF0cyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBoYW5kbGVyKHJlcSwgcmVzKSB7XHJcbiAgICB0cnkge1xyXG4gICAgICAgIGNvbnN0IHN0YXRzID0gYXdhaXQgZmV0Y2hTdGF0cygpO1xyXG4gICAgICAgIGNvbnNvbGUubG9nKCdTdGF0cyBmZXRjaGVkIGZyb20gREI6Jywgc3RhdHMpOyAvLyBMb2cgdGhlIHN0YXRzIGhlcmVcclxuICAgICAgICByZXMuc3RhdHVzKDIwMCkuanNvbihzdGF0cyk7XHJcbiAgICB9IGNhdGNoIChlcnJvcikge1xyXG4gICAgICAgIGNvbnNvbGUuZXJyb3IoJ0ZhaWxlZCB0byBmZXRjaCBzdGF0czonLCBlcnJvcik7XHJcbiAgICAgICAgcmVzLnN0YXR1cyg1MDApLmpzb24oeyBtZXNzYWdlOiAnSW50ZXJuYWwgU2VydmVyIEVycm9yJyB9KTtcclxuICAgIH1cclxufVxyXG4iXSwibmFtZXMiOlsiZmV0Y2hTdGF0cyIsImhhbmRsZXIiLCJyZXEiLCJyZXMiLCJzdGF0cyIsImNvbnNvbGUiLCJsb2ciLCJzdGF0dXMiLCJqc29uIiwiZXJyb3IiLCJtZXNzYWdlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./pages/api/stats.js\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next"], () => (__webpack_exec__("(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fstats&preferredRegion=&absolutePagePath=.%2Fpages%5Capi%5Cstats.js&middlewareConfigBase64=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();
